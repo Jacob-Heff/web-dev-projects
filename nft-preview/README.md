@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./readme-images/product.jpg)
+![](readme-images/product.jpg)
 
 ### Links
 
