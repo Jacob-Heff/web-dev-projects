@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit">
+  <link href="stylesheet.css" rel="stylesheet">
+  <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <title>Speed Typing</title>
+  <style>
+	body {
+		}
+	#wrapper { font-family: "Outfit";
+	}
+</style>
+<script>
+    function updateIframe(){
+        var myFrame = $("#myframe").contents().find('body');
+        var textareaValue = $("textarea").val();
+        myFrame.html(textareaValue);
+    }
+</script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<h2>Speed Typing</h2>
+		</header>  
+		<main> 
+			<div class="boxed">
+				<p class="text">They needed to find a place to eat. The kids were beginning to get grumpy in the back seat and if they didn't find them food soon, it was just a matter of time before they were faced with a complete meltdown. Even knowing this, the solution wasn't easy. Everyone in the car had a different opinion on where the best place to eat would be with nobody agreeing with the suggestions of the others. It seemed to be an impossible no-win situation where not everyone would be happy no matter where they decided to eat which in itself would lead to a meltdown. Yet a decision needed to be made and it needed to be made quickly.<p>
+				
+				  <textarea rows="5" cols="50" placeholder="Type HTML or text here..."></textarea>
+				<button type="button" onclick="updateIframe()">Insert Content</button>
+				<iframe id="myframe"></iframe>
+			</div>
+		</main> 
+		<footer>
+			Coded by <a href="https://github.com/Jacob-Heff">Jacob Heffington</a>.
+		</footer> 
+	</div>
+</body>
+</html>
+
+
