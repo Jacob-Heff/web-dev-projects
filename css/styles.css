@@ -9070,7 +9070,7 @@ body {
   max-width: 50%;
   font-size: 1.5rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 432px) {
   .masthead h1, .masthead .h1 {
     font-size: 4rem;
   }
